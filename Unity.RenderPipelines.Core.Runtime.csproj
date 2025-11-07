@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{20a7bd32-5ab7-4458-6a47-9019f9d14274}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.RenderPipelines.Core.Runtime</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.RenderPipelines.Core.Runtime\</OutputPath>
+    <DefineConstants>UNITY_6000_2_10;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;ENABLE_VR_MODULE;ENABLE_XR_MODULE;ENABLE_INPUT_SYSTEM_PACKAGE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeComponent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lights/LightAnchor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/IRenderGraphRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/FixedAttachmentArray.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerValueTuple.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/VrsShaders.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/TextureCurve.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Stripping/RenderPipelineGraphicsSettingsStripper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerUIntField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/IBaseCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/RTHandle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugUI.Containers.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/SceneRenderPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/DynamicArray.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphGlobalSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUPrefixSum/GPUPrefixSum.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/IRasterCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/IAdditionalData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBakingProcessSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/FSRUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/UIFoldout.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Binding.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerContainer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ShaderVariablesProbeVolumes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraph.ExceptionMessages.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Documentation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectToggle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/ArrayExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/UnsafeCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/VrsRenderPipelineRuntimeResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/IVolume.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeGIContributor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeConstantRuntimeResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphCompilationCache.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/NativePassCompiler.Debug.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeBrickPool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/LightmapSamplingSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBakingSet.Editor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/ColorUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerObjectPopupField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/CommandBufferPool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugUI.Fields.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/ICloudBackground.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/KeyframeUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerRenderingLayerField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumePositioning.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/MSAASamples.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ReloadGroupAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/IProbeVolumeEnabledRenderPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphUtilsResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/PowerOfTwoTextureAtlas.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ObjectPools.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/DepthBits.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/TextureXR.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugOverlay.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphPassType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRLayoutStack.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ObservableList.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugUI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/CommandBufferHelpers.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareDataSRP.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRLayout.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRSystem.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettingsHDROutput.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ContextContainer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/IDebugDisplaySettingsPanel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector2.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/MaterialQuality.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/IncludeRenderPipelineAsset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/FrameTiming/FrameTimeSample.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeStreamableAsset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/IDefaultVolumeProfileSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRGraphicsAutomatedTests.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeComponent.EditorOnly.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/IComputeCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/Observable.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/IVirtualTexturingEnabledRenderPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/ShaderGenerator/ShaderGeneratorAttributes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/DynamicString.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Debug/DebugDisplaySettingsRenderGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourceAccelerationStructure.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/HableCurve.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphDefaultResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettingsVolumes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggleHistory.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/HaltonSequence.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/ResourcesData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourceTexture.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/CoreRenderPipelinePreferences.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeParameter.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/RasterCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/ComputeCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettingsPanel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/VrsResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/CompilerContextData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/ShaderStrippingSetting.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/NativePassCompiler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/HDROutputUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRMirrorView.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareCommonSRP.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphUtilsBlit.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ComponentSingleton.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/RemoveRange.Extensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Stripping/RenderPipelineGraphicsSettingsStripperFetcher.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugUI.Panel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/CullContextData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRBuiltinShaderConstants.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/RenderPipelineGraphicsSettingsContainer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeAdjustmentVolume.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphLogger.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/VrsLut.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRPass.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUPrefixSum/GPUPrefixSum.ShaderIDs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/CoreUnsafeUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRSRPSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerCanvas.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumePerSceneData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUSort/GPUSort.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/CoreProfileId.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Stripping/RenderPipelineGraphicsSettingsStripperReport.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeIndexOfIndices.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraph.DebugData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/IDebugDisplaySettingsData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRView.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/IRenderGraphEnabledRenderPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ListBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/RenderPipelineGlobalSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Stripping/IStripper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerGroup.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeAsset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/BitArray.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/DynamicResolutionHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareOcclusionPermutation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Camera/CameraHistory.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettingsStats.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/LookDev/IDataProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Stripping/IRenderPipelineGraphicsSettingsStripper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugUpdater.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/IDebugDisplaySettingsQuery.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Deprecated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/ShaderDebugPrintManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/RenderPipelineGlobalSettingsUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Inputs/InputRegistering.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerWidget.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugManager.Actions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ReloadAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/RenderingDebuggerRuntimeResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumHistory.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeProfile.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/TextureGradient.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraph.Compiler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBakingSetWeakReference.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolume.Migration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector4.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/MousePositionDebug.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerProgressBar.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFloatField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUPrefixSum/GPUPrefixSum.Data.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/BaseCommandBufer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourceRendererList.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/MeshGizmo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerValue.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphPass.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/IVolumetricCloud.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/IPostProcessComponent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeDebugData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolume.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerMessageBox.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/ColorSpaceUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourceRegistry.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/SphericalHarmonics.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/CoreMatrixUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/CommandBuffers/IUnsafeCommandBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphBuilder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeSceneData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/VolumeDebugSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeCollection.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeScratchBufferPool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugManager.UIState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/ShaderLibrary/Sampling/Hammersley.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Camera/FreeCamera.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/ProfilingScope.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/HashFNV1A32.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeBrickIndex.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Settings/IDefaultVolumeProfileResource.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/Blitter.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/CameraCaptureBridge.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplaySettingsUI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/ISTPEnabledRenderPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/Swap.Extensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourceBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XROcclusionMesh.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Debug/RenderGraphDebugParams.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerObject.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/IDebugDisplaySettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/CommonStructs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/DelegateUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphResourcePool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBakingSet.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUSort/GPUSort.Data.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphObjectPool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Streaming.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/BufferedRTHandleSystem.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/RTHandleSystem.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/IRenderGraphBuilder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/ConstantBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/RTHandles.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/IVolumeDebugSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPanel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/GlobalDynamicResolutionSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectFloatField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerRow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/STP.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/Volume.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerObjectList.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/SerializedDictionary.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Volume/VolumeStack.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerHBox.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumesOptions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.ReflProbeNormalization.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIntField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Vrs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphBuilders.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVBox.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/HDROutputDefines.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/TileLayoutUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/XR/XRVisibleMesh.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/CoreUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugShapes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/Compiler/PassesData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Camera/CameraSwitcher.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugFrameTiming.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeAdjustmentVolume.deprecated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipeline/RenderPipelineResources.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/SerializableEnum.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderGraph/RenderGraphProfileId.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerColor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPersistentCanvas.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/ResourceReloader.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/FrameTiming/FrameTimeBottleneck.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerButton.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Textures/Texture2DAtlas.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeGlobalSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Common/CoreAttributes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/DebugDisplayStats.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/BatchRendererGroupGlobals.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector3.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareComponentSRP.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerBitField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/LightUnitUtils.cs" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/ShaderLibrary/Sampling/Hammersley.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/StpCommon.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/HDROutputDefines.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareOcclusionPermutation.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsVisualization.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/STP.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/LensFlareCommon.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/OcclusionCullingDebug.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsTileSize.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/StpSetup.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferUploadKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/DebugOccluder.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/DebugOcclusionTest.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/ffx/ffx_a.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/Blit.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Streaming.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/FallbackShader.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/GPUPrefixSum/GPUPrefixSum.Data.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/DecodeSH.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/StpPreTaa.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/InstanceOcclusionCullingKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/OccluderDepthPyramidKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsMainTex.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolume.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/StpTaa.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferCopyKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/ffx/ffx_fsr1.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/InstanceTransformUpdateKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/ffx/ffx_cas.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeFragmentationDebug.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsTexture.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeDebug.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeDebugFunctions.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/ffx/ffx_lpm.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsShadingRates.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeOffsetDebug.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataCommon.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeDebugBase.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Vrs/Shaders/VrsImage.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Lighting/ProbeVolume/ShaderVariablesProbeVolumes.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Utilities/BlitColorAndDepth.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/STP/Stp.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/RenderPipelineResources/GPUDriven/InstanceWindDataUpdateKernels.compute" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/LensFlareDataSRP.cs.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/FSRCommon.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/PostProcessing/Shaders/LensFlareScreenSpaceCommon.hlsl" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Debug/ProbeVolumeSamplingDebug.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.core@8e95de95addb/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef" />
+    <Reference Include="UnityEngine">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.InAppPurchasingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.InAppPurchasingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LevelPlayModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.LevelPlayModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Lib/Editor/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Lib/Editor/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>/home/samicpp/Documents/Unity-Projects/fuckass-game/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/home/samicpp/Unity/Hub/Editor/6000.2.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{038e6d01-670f-0645-1971-cd84c904b431}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{5587b144-e405-8766-357c-64866e5b5107}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{4a3247ec-d191-524b-1ee0-5a7bbc79ec31}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{06b557ad-0ca4-d3ce-f6e7-a4a42808ede9}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{57cdbe03-bd84-483d-e3b2-5668999e8ea3}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{33dfe1d8-b6f8-71c3-8f8e-9df74a50eb4e}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
